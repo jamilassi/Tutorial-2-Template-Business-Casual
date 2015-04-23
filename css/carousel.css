@@ -1,0 +1,157 @@
+.infiniteCarousel {
+
+	width:100%;
+
+	position:relative
+
+}
+
+.infiniteCarousel #flickrgallery {
+
+  /* .infiniteCarousel width - (.wrapper margin-left +
+
+  .wrapper margin-right) */
+
+  width:90%;
+
+  overflow:auto;
+
+  height:410px;
+
+  margin:0 34px;
+
+  position:absolute;
+
+  top:0
+
+}
+
+.infiniteCarousel ul a img {
+
+  border:5px solid #fff;
+
+  -moz-border-radius:5px;
+
+  -webkit-border-radius:5px;
+
+  border-radius:5px
+
+}
+
+.infiniteCarousel #flickrgallery ul {
+
+  width:840px;
+
+  list-style-image:none;
+
+  list-style-position:outside;
+
+  list-style-type:none;
+
+  margin:0;
+
+  padding:0;
+
+  position:absolute;
+
+  top:0
+
+}
+
+.infiniteCarousel ul li {
+
+  display:block;
+
+  float:left;
+
+  padding:0 10px 0 0;
+
+  height:285px;
+
+  width:285px;
+
+}
+
+.infiniteCarousel ul li img {
+
+  -moz-transition:border-color 400ms;
+
+  -webkit-transition:border-color 400ms;
+
+  transition:border-color 400ms;
+
+}
+
+.infiniteCarousel ul:hover li img {
+
+  border-color:#fff
+
+}
+
+.infiniteCarousel ul:hover li:hover img {
+
+  border-color:#fff
+
+}
+
+.infiniteCarousel ul li a img {
+
+  display:block
+
+}
+
+.infiniteCarousel .arrowflickr {
+
+  display:block;
+
+  height:85px;
+
+  width:30px;
+
+  /* Add images for forward/back arrows & use negative text-indent 
+
+  to hide arrow characters - uncomment CSS below as necessary */
+
+  /*background:url("http://www.yourwebsite.com/images/arrows.png") no-repeat;
+
+  text-indent:-9999px;*/
+
+  position:absolute;
+
+  top:0;
+
+  cursor:pointer;
+
+  outline:0;
+
+  border:0
+
+}
+
+.infiniteCarousel .forward {
+
+  background-position:-830px -1020px;
+
+  right:0
+
+}
+
+.infiniteCarousel .back {
+
+  background-position:-830px -1128px;
+
+  left:0
+
+}
+
+.infiniteCarousel .forward:hover, 
+
+.infiniteCarousel .back:hover {
+
+  background-color:#fff
+
+}/* CSS Document */
+
+#carouselcontenu {
+	height:290px;
+	}

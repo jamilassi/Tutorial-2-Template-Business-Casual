@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html,body {
+	background-color:#FFF;
+	font-family: 'Special Elite', cursive;
+    height: 100%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    color: #FFFFFF;   
+}
+.alignement {
+	vertical-align: top;
+}
+.loading {
+	background-image:url(../img/loader.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color: #fff;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0.78;
+}
+
+.message {
+	margin:25px;
+	}
+.panel-default {
+	margin-top:33px;
+	}
